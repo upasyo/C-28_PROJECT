@@ -8,4 +8,18 @@ html, body {
     padding-top: 20px;
     border-radius: 50px;
   }
-  
+  #text{
+    display:none;
+  }
+  @media only screen and (max-device-width:900px){
+    canvas{
+      display:none;
+    }
+   
+  }
+  @media only screen and (max-device-width:900px){
+    #text{
+      display:block;
+    }
+  }
+ 
